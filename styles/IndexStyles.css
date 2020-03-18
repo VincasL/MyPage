@@ -1,18 +1,23 @@
 body
 {
-    background-color: rgb(59, 0, 196);
+    background-image:radial-gradient(white, rgb(164, 178, 255));
+}
+.genresMenu
+{
+    width: 90%;
+    margin:auto;
+    text-align: center;
 }
 .genreButtons
 {
-    height: 250px;
-    width: 100%;
-    margin: 3px;
-    margin-bottom: -7px;
+    height: 300px;
+    width: 300px;
     border: 0;
+    margin: 0px -5px;
     background-image: no-repeat;
     background-size: cover;
     position: relative;
-    filter:brightness(0.7);
+    filter:brightness(0.6);
     transition: filter 0.5s;
     font-size: 60px;
     font-family: fantasy;
@@ -32,19 +37,28 @@ body
 {
     background-image: url("../images/house.jpg");
     max-width: 100%;
+
 }
 #trapButton
 {
     background-image: url("../images/trap.jpg");
     max-width: 100%;
+
 }
 #acousticButton
 {
     background-image: url("../images/acoustic.jpg");
     max-width: 100%;
+
 }
 #otherButton
 {
     background-image: url("../images/other.jpg");
     max-width: 100%;
+}
+h1
+{
+    color: black;
+    text-align: center;
+    font-size: 20px;
 }
