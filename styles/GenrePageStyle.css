@@ -1,0 +1,36 @@
+.trackembedder
+{
+    width: 100%;
+}
+body{
+    background-image:radial-gradient(white, rgb(164, 178, 255));
+}
+.content
+{
+    padding: auto;
+}
+.g-background-default
+{
+    background-color: black;
+}
+.alltracks
+{
+    padding: 10px;
+    margin: auto;
+}
+.track
+{
+    padding-bottom: 20px;
+    margin: auto;
+}
+.description
+{
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+#heading
+{
+    text-align: center;
+    font-size: 28px;
+}

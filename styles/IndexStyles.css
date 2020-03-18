@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(59, 0, 196);
+}
+.genreButtons
+{
+    height: 250px;
+    width: 100%;
+    margin: 3px;
+    margin-bottom: -7px;
+    border: 0;
+    background-image: no-repeat;
+    background-size: cover;
+    position: relative;
+    filter:brightness(0.7);
+    transition: filter 0.5s;
+    font-size: 60px;
+    font-family: fantasy;
+    color:white;
+}
+.genreButtons:hover
+{
+    filter:brightness(1);
+    transition: filter 0.5s;
+}
+#lofiButton
+{
+    background-image: url("../images/lofi.jpg");
+    max-width: 100%;
+}
+#houseButton
+{
+    background-image: url("../images/house.jpg");
+    max-width: 100%;
+}
+#trapButton
+{
+    background-image: url("../images/trap.jpg");
+    max-width: 100%;
+}
+#acousticButton
+{
+    background-image: url("../images/acoustic.jpg");
+    max-width: 100%;
+}
+#otherButton
+{
+    background-image: url("../images/other.jpg");
+    max-width: 100%;
+}

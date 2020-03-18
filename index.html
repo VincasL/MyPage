@@ -5,13 +5,38 @@
         <title>V1ncas music</title>
         <meta name="description" content="My portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="../styles/IndexStyles.css">
     </head>
     <body>
-        <iframe width="200px" height="200" scrolling="no" frameborder="no" allow="autoplay" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/749667490&color=%233c90a0&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true">
-        </iframe>
+        <div class = "content">
+            <h1 id="title">
+                My portfolio
+            </h1>
+            <h2 id="genres">
+                Genres
+            </h2>
+            <div class = "genresMenu">
+                <button id="lofiButton" class="genreButtons" onclick="OpenLink('pages/lofi.html')">
+                    Lo-Fi
+                </button>
+                <button id="houseButton" class="genreButtons" onclick="OpenLink('pages/house.html')">
+                    House
+                </button>
+                <button id="trapButton" class="genreButtons" onclick="OpenLink('pages/trap.html')">
+                    Trap
+                </button>
+                <button id ="acousticButton" class="genreButtons" onclick="OpenLink('pages/acoustic.html')">
+                    Acoustic
+                </button>
+                <button id="otherButton" class="genreButtons" onclick="OpenLink('pages/other.html')">
+                    Other
+                </button>
+            </div>
+            
+            <div class = "aboutme"></div>
+            <div class = "socialmedia"></div>
+        </div>
 
-        <script src="" async defer></script>
+        <script src="script/script.js" async defer></script>
     </body>
 </html>
