@@ -2,15 +2,25 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>V1ncas music</title>
+        <title>Vincas Linkevičius</title>
         <meta name="description" content="My portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles\IndexStyles.css">
     </head>
     <body>
         <div class = "content">
+            <div class = "aboutme">
+                <div id="aboutmeText">
+                    <p class="aboutmeline">A musician.</p>
+                    <p class="aboutmeline">A programmer.</p>
+                    <p class="aboutmeline">Perfect combo.</p>
+                    <div id="vincas">
+                        <img src="images/vincascropped.png" id="vincasImage">
+                    </div>
+                </div>
+            </div>
             <h1 id="title">
-                My portfolio
+                My music
             </h1>
             <div class = "genresMenu">
                 <button id="lofiButton" class="genreButtons" onclick="OpenLink('pages/lofi.html')">
@@ -29,9 +39,14 @@
                     Other
                 </button>
             </div>
+
+            <div class = "socialmedia">
+                <button class="socialMediaButtons" id="soundcloud" onclick="OpenLink('https://soundcloud.com/v1ncas')"></button>
+                <button class="socialMediaButtons" id="instagram" onclick="OpenLink('https://www.instagram.com/vincelis68/')"></button>
+                <button class="socialMediaButtons" id="facebook" onclick="OpenLink('https://www.facebook.com/vincas.linkevicius')"></button>
+            </div>
+
             
-            <div class = "aboutme"></div>
-            <div class = "socialmedia"></div>
         </div>
 
         <script src="script/script.js" async defer></script>
