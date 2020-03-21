@@ -1,6 +1,7 @@
 body
 {
     background-image:radial-gradient(white, rgb(164, 178, 255));
+    font-family: 'Indie Flower';
 }
 .content
 {
@@ -13,20 +14,25 @@ body
     height: 300px;
     width: 300px;
     border: 0;
-    margin: 0px -5px;
+    margin: -5px -25px;
     background-image: no-repeat;
     background-size: cover;
     position: relative;
     filter:brightness(0.6);
     transition: filter 0.5s;
     font-size: 60px;
-    font-family: fantasy;
+    font-family: 'Indie Flower';
     color:white;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
 }
 .genreButtons:hover
 {
+    cursor: pointer;
     filter:brightness(1);
-    transition: filter 0.5s;
+    transition: filter 1s;
+    transform: scale(1.1);
+    transition: scale 0.6s;
 }
 #lofiButton
 {
@@ -60,7 +66,8 @@ h1
 {
     color: black;
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
+    font-family: 'Indie Flower','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .socialMediaButtons
 {
@@ -69,6 +76,12 @@ h1
     background-size: cover;
     background-color: transparent;
     border: 0;
+}
+.socialMediaButtons:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: scale(0.5);
 }
 #instagram
 {
@@ -85,7 +98,10 @@ h1
 #vincasImage
 {
     height: 300px;
+    border: 1px dashed rgb(155, 155, 168);
+    border-radius: 50%;
     width: auto; 
+    box-shadow: gray 10px 10px 5px;
 }
 #aboutmeText
 {
@@ -94,6 +110,10 @@ h1
 .aboutmeline
 {
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 15px;
+    text-shadow: gray 2px 2px 2px;
+}
+h2{
+    margin: 0px;
+    margin-top: 10px;
 }
