@@ -1,0 +1,91 @@
+#image{
+    width: 75%;
+    border-radius: 50px;
+    border: 1px solid blue;
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.46);
+  }
+  img{
+    display: block;
+    max-width: 80%;
+    margin: auto;
+  }
+  #img-caption{
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+  body{
+    background-color: #1B29A5;
+    font-family: 'Baloo 2', cursive;
+  }
+  #title{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  #description{
+      font-size: 40px;
+  }
+  #timeline{
+    margin-top: 2em;
+    font-size: 30px;
+  }
+  #main{
+    padding: 10px;
+    text-align: center;
+    background-image: radial-gradient(#FFFFCC,#F0E65C);
+    width: 90%;
+    margin: auto;
+  }
+  
+  ul{
+    max-width: 750px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+  }
+  li{
+    padding-left: 0px;
+    padding: 4px 2px; 
+    list-style: none;
+  }
+  
+  li::before
+  {
+    content: '';
+    position: absolute;
+    background: gold;
+    border: 2px solid blue;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    left: 0.5em;
+    display:flex;
+    margin-top: 4px;
+  }
+  strong{
+    margin-right: 7px;
+    font-size: 1.2em;
+  }
+  .quote{
+    font-size: 40px;
+    width: 80%;
+    margin: 20px auto 10px auto;
+    line-height: 1.5em;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+  }
+  
+  .quote::before{
+    content: open-quote;
+    font-size: 50px;
+    color: lightgray;
+    margin-right: 10px;
+  }
+  .quote::after{
+    content: close-quote;
+    font-size: 50px;
+    color: lightgray;
+    margin-left: 10px;
+  }
+  #read-more{
+    margin-top: 1em;
+    font-size: 1em;
+  }
