@@ -9,53 +9,55 @@
         <link rel="stylesheet" href="styles\IndexStyles.css">
     </head>
     <body>
-        <div class = "content">
-            <div class = "aboutme">
-                <div id="aboutmeText">
-                    <p class="aboutmeline">A musician.</p>
-                    <p class="aboutmeline">A programmer.</p>
-                    <p class="aboutmeline">Perfect combo.</p>
-                    <div id="vincas">
-                        <img src="images/vincascropped.png" id="vincasImage">
-                    </div>
-                </div>
-            </div>
-            <h2 id="title">
-                My music
-            </h2>
-            <div class = "genresMenu">
-                <button id="lofiButton" class="genreButtons" onclick="OpenLink('pages/lofi.html')">
-                    Lo-Fi
-                </button>
-                <button id="houseButton" class="genreButtons" onclick="OpenLink('pages/house.html')">
-                    House
-                </button>
-                <button id="trapButton" class="genreButtons" onclick="OpenLink('pages/trap.html')">
-                    Trap
-                </button>
-                <button id ="acousticButton" class="genreButtons" onclick="OpenLink('pages/acoustic.html')">
-                    Acoustic
-                </button>
-                <button id="otherButton" class="genreButtons" onclick="OpenLink('pages/other.html')">
-                    Other
-                </button>
-            </div>
-            <h2 id="webs">
-                My websites
-            </h2>
-            <div class = "websites">
-                <button id="kobe-tribute" class="website-buttons" onclick="OpenLink('pages\\Kobe Tribute\\index.html')">
-                    Kobe tribute
-                </button>
-            </div>
-            <h2 id="social">Follow me on social media</h2>
-            <div class = "socialmedia">
-                <button class="socialMediaButtons" id="soundcloud" onclick="OpenLink('https://soundcloud.com/v1ncas')"></button>
-                <button class="socialMediaButtons" id="instagram" onclick="OpenLink('https://www.instagram.com/vincelis68/')"></button>
-                <button class="socialMediaButtons" id="facebook" onclick="OpenLink('https://www.facebook.com/vincas.linkevicius')"></button>
-            </div>
-        </div>
+        <main id = "content">
+            <section id = "about-me">
+                <p class="my-description">A musician.</p>
+                <p class="my-description">A programmer.</p>
+                <p class="my-description">Perfect combo.</p>
+                <figure id = "vincas-div">
+                    <img src="images/vincascropped.png" id="vincas-img">
+                </figure>
+            </section>
 
+            <section id="my-music">
+                <h2 class="title">
+                    My music
+                </h2>
+                <div id = "genresMenu">
+                    <button id="lofi-button" class="genre-buttons" onclick="OpenLink('pages/lofi.html')">
+                        Lo-Fi
+                    </button>
+                    <button id="house-button" class="genre-buttons" onclick="OpenLink('pages/house.html')">
+                        House
+                    </button>
+                    <button id="trap-button" class="genre-buttons" onclick="OpenLink('pages/trap.html')">
+                        Trap
+                    </button>
+                    <button id ="acoustic-button" class="genre-buttons" onclick="OpenLink('pages/acoustic.html')">
+                        Acoustic
+                    </button>
+                    <button id="other-button" class="genre-buttons" onclick="OpenLink('pages/other.html')">
+                        Other
+                    </button>
+                </div>
+            </section>
+            <section id="my-websites">
+                <h2 class="title">
+                    My websites
+                </h2>
+                <div class = "website-menu">
+                    <button class="website-buttons" id="kobe-tribute"  onclick="OpenLink('pages\\Kobe Tribute\\index.html')">
+                        Kobe tribute
+                    </button>
+                </div>
+            </section>
+            <h2 class="title" id="social">Follow me on social media</h2>
+            <div id = "socialmedia">
+                <button class="social-buttons" id="soundcloud" onclick="OpenLink('https://soundcloud.com/v1ncas')"></button>
+                <button class="social-buttons" id="instagram" onclick="OpenLink('https://www.instagram.com/vincelis68/')"></button>
+                <button class="social-buttons" id="facebook" onclick="OpenLink('https://www.facebook.com/vincas.linkevicius')"></button>
+            </div>
+        </main>
         <script src="script/script.js" async defer></script>
     </body>
 </html>
