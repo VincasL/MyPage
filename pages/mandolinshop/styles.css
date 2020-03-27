@@ -1,0 +1,220 @@
+    html
+    {
+        scroll-behavior:smooth;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: 'Baloo Thambi 2', cursive;
+        color:white;
+    }
+    .icon-img{
+        height: 200px;
+    }
+    #header
+    {
+        color: white;
+        position:sticky;
+        width: 100%;
+        top: 0;
+        display:flex;
+        background-color: rgb(196, 124, 18);
+        align-items: center;
+        justify-content: space-between;
+        z-index: 99;
+        border: 1px solid rgb(221, 194, 153);
+    }
+    @media (max-width: 600px)
+    {
+        #header
+        {
+            flex-wrap: wrap;
+        }
+        #description
+        {
+        font-size: 1.5em;
+        }
+        .icon-img
+        {
+            height: 75px;
+        }
+    }
+    #header-img
+    {
+        height: 75px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+    #store-title
+    {
+        display: flex;
+    }
+    #nav-bar
+    {
+        display: block; 
+        margin-right: 20px;
+        
+    }
+    #title
+    {
+        padding-left: 1vw;
+        font-size: 2em;
+        margin: auto;
+    }
+    nav > ul{
+        
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav a{
+        padding: 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+    }
+    #content
+    {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    #description
+    {
+        font-size: 2em;  
+    }
+    
+    #email
+    {
+        width: 20%;
+        height: 40px;
+        border-radius: 0.5em;
+        min-width: 150px;
+        text-align: center;
+    }
+    #submit
+    {
+        width: 15%;
+        min-width: 60px;
+        height: 30px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+    form{
+        padding: 20px 0px;
+    }
+    .icon{
+        margin-right: 5vw;
+    }
+    .grid
+    {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .description > h3
+    {
+        text-align: left;
+        font-size: 2em;
+        margin-top: 10px;
+        margin-left: 0em;
+        margin-bottom: 10px;
+    }
+    .description > p
+    {
+        text-align: left;
+        max-width: 300px;
+    }
+    #products
+    {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    @media (max-width: 600px)
+    {
+        #products
+        {
+            flex-wrap: wrap;
+        }
+    }
+    #best-sellers-title
+    {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .product-title
+    {
+        font-size: 1.5em;
+    }
+    .instrument-image
+    {
+        height: 200px;
+        margin: 7px;
+        transition: transform 1s;
+    }
+    .instrument-image:hover
+    {
+        transform: scale(1.2);
+        transition: transform 1s;
+    }
+    .product-price
+    {
+        font-size: 1.8em;
+        text-decoration: bold;
+    }
+
+    section{
+        border: 1px dashed rgb(122, 69, 0);
+        background-size: auto;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    #form-section{
+        background-image: url("https://images.pexels.com/photos/3931065/pexels-photo-3931065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        min-height: 700px;
+        background-position: bottom;
+        
+    }
+    #features{
+        background-image: url("https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        min-height: 800px;
+        background-position: top;
+
+    }
+    #best-sellers{
+        background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        min-height: 500px;
+        background-position: bottom;
+        
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .content-div
+    { 
+        background-color: rgba(105, 74, 11, 0.87);
+        padding: 25px;
+        margin: 20px;
+        border: 3px dashed rgb(221, 194, 153);
+        border-radius: 100px;
+    }
+    #copyright
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: rgb(199, 130, 26);
+        text-align: right;
+        height: 30px;
+    }
