@@ -10,6 +10,12 @@
     </head>
     <body>
         <main id = "content">
+            <div id ="toggle-theme">
+                <label class="switch">
+                    <input type="checkbox" onclick="ToggleDarkMode()" id="toggle-dark-mode">
+                    <span class="slider round"></span>
+                </label>
+            </div>
             <section id = "about-me">
                 <p class="my-description">A musician.</p>
                 <p class="my-description">A programmer.</p>
@@ -18,7 +24,22 @@
                     <img src="images/vincascropped.png" id="vincas-img">
                 </figure>
             </section>
-
+            <section id="my-websites">
+                <h2 class="title">
+                    My websites
+                </h2>
+                <div class = "website-menu">
+                    <button class="website-buttons" id="test-form" onclick="OpenLink('pages\\Form\\index.html')">
+                        Test form
+                    </button>
+                    <button class="website-buttons" id="test-form" onclick="OpenLink('pages\\mandolinshop\\index.html')">
+                        Instrument shop
+                    </button>
+                    <button class="website-buttons" id="kobe-tribute"  onclick="OpenLink('pages\\Kobe Tribute\\index.html')">
+                        Kobe tribute
+                    </button>
+                </div>
+            </section>
             <section id="my-music">
                 <h2 class="title">
                     My music
@@ -41,22 +62,7 @@
                     </button>
                 </div>
             </section>
-            <section id="my-websites">
-                <h2 class="title">
-                    My websites
-                </h2>
-                <div class = "website-menu">
-                    <button class="website-buttons" id="kobe-tribute"  onclick="OpenLink('pages\\Kobe Tribute\\index.html')">
-                        Kobe tribute
-                    </button>
-                    <button class="website-buttons" id="test-form" onclick="OpenLink('pages\\Form\\index.html')">
-                        Test form
-                    </button>
-                    <button class="website-buttons" id="test-form" onclick="OpenLink('pages\\mandolinshop\\index.html')">
-                        Instrument shop
-                    </button>
-                </div>
-            </section>
+
             <h2 class="title" id="social">Follow me on social media</h2>
             <div id = "socialmedia">
                 <button class="social-buttons" id="soundcloud" onclick="OpenLink('https://soundcloud.com/v1ncas')"></button>
